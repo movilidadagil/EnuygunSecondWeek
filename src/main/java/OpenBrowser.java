@@ -48,6 +48,8 @@ public class OpenBrowser {
             System.out.println(webElementList.get(i).getText());
         }
 
+
+
         //List<WebElement> parentWebElements = new ArrayList<>();
         //parentWebElements = driver.findElements(By.xpath("//div[@class='rt-tr-group']/div[1]"));
         System.out.println(webElementList.get(0).getAttribute("width"));
